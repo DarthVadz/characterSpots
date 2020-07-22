@@ -11,6 +11,8 @@ import Contact from '../components/Contact';
 import Error from '../components/Error';
 import Navigation from '../components/Navigation';
 
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
+
 function App () {
   return (
     <div className="App">
@@ -26,10 +28,11 @@ function App () {
         </div> 
       </BrowserRouter>
       <Feed />
-
+      
+      <AmplifySignOut />
       <footer className="footer">Copywrong 2020</footer>
     </div>
   );
 }
 
-export default App;
+export default withAuthenticator(App);

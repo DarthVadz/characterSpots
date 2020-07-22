@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"characterspots31ff79d1": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}
