@@ -1,0 +1,33 @@
+.feed {
+  margin: 2rem auto;
+  width: 50%;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.feed button {
+  background-color: white;
+  min-width: 75px;
+}
+
+.spy {
+  color: #5a6f7c;
+  border: 1px solid #5a6f7c;
+}
+
+.wizard {
+  color: #b9ac4a;
+  border: 1px solid #b9ac4a;
+}
+
+.unselected {
+  background-color: white;
+}
+
+.spy.selected {
+  background-color: #7691a2;
+}
+
+.wizard.selected {
+  background-color: #ffee66;
+}

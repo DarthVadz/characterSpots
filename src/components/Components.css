@@ -1,0 +1,34 @@
+@keyframes unhide {
+  from {max-height: 55px;}
+  to {max-height: 1520px;}
+}
+
+.unhide {
+  max-height: 55px;
+  overflow: hidden;
+  background-color: rgb(125, 188, 255);
+}
+
+.fun:hover {
+  animation-name: heartBeat;
+  animation-duration: 1s;
+}
+
+.unhide:hover {
+  animation-name: unhide;
+  animation-duration: 5s;
+}
+
+.nav .balancers {
+  opacity: 0;
+  margin: auto 5px;
+}
+
+.nav .balancers:hover{
+  cursor: default;
+}
+
+.nav-item .btn {
+  background-color: rgb(125, 188, 255);
+  margin: auto 5px;
+}

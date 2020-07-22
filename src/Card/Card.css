@@ -1,0 +1,100 @@
+.card {
+  width: 30%;
+  border-radius: 1rem;
+  margin: 0.5rem;
+}
+
+.card.spyish {
+  border: 1px solid #5a6f7c;
+}
+
+.card.wizardly {
+  border: 1px solid #b9ac4a;
+}
+
+.secretInput {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.55rem;
+    text-align: center;
+}
+
+.cardTitle {
+  position: relative;
+  width: 50%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.spyish .card-top {
+  border-bottom: 1px solid #5a6f7c;
+}
+
+.wizardly .card-top {
+  border-bottom: 1px solid #b9ac4a;
+}
+
+.swap {
+  color: transparent;
+  float: left;
+  background-color: transparent;
+  max-width: 40px;
+  min-width: 30px;
+  max-height: 40px;
+  min-height: 30px;
+  border-radius: 15px;
+  padding: 0;
+  margin: 0.175rem;
+}
+
+.deleteButton {
+  color: transparent;
+  float: right;
+  background-color: transparent;
+  max-width: 40px;
+  min-width: 30px;
+  max-height: 40px;
+  min-height: 30px;
+  border-radius: 15px;
+  padding: 0;
+  margin: 0.175rem;
+}
+
+.deleteButton:hover {
+  background-color: red;
+  color: white;
+}
+
+.spyish {
+  background-color: #7691a2;
+  color: white;
+}
+
+.spyish input {
+  color: white;
+}
+
+.spyish.swap {
+  color: #7691a2
+}
+
+.spyish.swap:hover{
+  background-color: #ffee66;
+  color: black
+}
+
+.wizardly {
+  background-color: #ffee66;
+}
+
+.wizardly.swap {
+  color: #ffee66
+}
+
+.wizardly.swap:hover{
+  background-color: #7691a2;
+  color: white;
+}

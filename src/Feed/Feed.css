@@ -1,0 +1,12 @@
+.mainfeed {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card {
+  width: 30%;
+  min-height: 250px;
+  border-radius: 1rem;
+  margin: 0.5rem;
+}
